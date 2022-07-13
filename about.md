@@ -41,7 +41,7 @@
   	  <div class="row"> <!-- header row --> 
 
         <div class="eight columns" style="margin-top:4%"> 
-		<a href="index.html"><img src="images/logo.svg"></img></a>
+	<img src="images/logo.svg"></img>
         </div>
 
         <div class="four columns" style="margin-top:4%; text-align:right;">
