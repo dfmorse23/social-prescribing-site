@@ -315,7 +315,12 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+    margin-bottom: 1em; /* optional, customize to suit */}
+
+.nav {text-align: left; /* customize to suit */
+    vertical-align: top; /* can customize to suit */
+    display: inline-block;
+    margin-right:16px; /* optional, only need for text content to wrap */}
 
 
 /* Code
