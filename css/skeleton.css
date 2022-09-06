@@ -316,6 +316,9 @@ ol ul {
   font-size: 90%; }
 li {
     margin-bottom: 1em; /* optional, customize to suit */}
+li:hover {
+  opacity: 80%;
+}
 
 .nav {text-align: left; /* customize to suit */
     vertical-align: top; /* can customize to suit */
