@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
    }
 
-h1 { font-size: 4.8rem; line-height: 1.5;  letter-spacing: -.1rem;  font-weight: 800;}
+h1 { font-size: 4.8rem; line-height: 1.2;  letter-spacing: -.1rem;  font-weight: 800;}
 .example { color:  #363C57;}
 .light {font-weight: 100; color: #ffffff;}
 h2 { font-size: 3.2rem; line-height: 1.5; letter-spacing: -.1rem; }
@@ -326,7 +326,7 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #17A793; }
+  opacity:80% }
 
 
 /* Forms
@@ -406,20 +406,43 @@ ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
-li {
-    margin-bottom: 1em;
-    margin-right: 16px; /* optional, customize to suit */}
+li a {
+    text-decoration:  none;
+    color:  #7F85A0;
 
-li:hover {
-
-  opacity: 80%;
 }
 
-.nav {text-align: left; /* customize to suit */
-    vertical-align: top; /* can customize to suit */
+li a:hover {
+
+color:  #363C57
+
+}
+
+.nav {
+
+/*    text-align: right; /* customize to suit */
+*/   vertical-align: top; /* can customize to suit */
     display: inline-block;
+    padding: 8px;
+    float: right;
+    list-style-type: none;
+    text-decoration:  none;
     margin-right:px; /* optional, only need for text content to wrap */}
 
+
+
+a.active {
+color:  #363C57
+
+}
+
+.footer 
+
+{width:100%; 
+  height: auto; 
+  background-color:#fafafa; 
+  margin-top:6.4rem
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
