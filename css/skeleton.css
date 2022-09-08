@@ -247,6 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: -1rem;
   font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  #color:  #363C57;
    }
 
 h1 { font-size: 4.8rem; line-height: 1.2;  letter-spacing: -.1rem;  font-weight: 800;}
