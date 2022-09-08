@@ -113,6 +113,19 @@
 
 }
 
+a .four.columns
+{
+  border:1px solid #f2f2f2; 
+  padding: 24px 24px 24px 24px;
+  border-radius:8px;
+  width: 30.6666666667%;
+  left: 0px;
+}
+
+a .four.columns:hover {
+  opacity: 80%
+}
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
